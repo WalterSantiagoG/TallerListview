@@ -12,7 +12,7 @@ import android.widget.Toast;
 /**
  * Created by SANTIAGO on 1/10/2017.
  */
-//Area del circulo
+
 public class Circulo extends AppCompatActivity {
 
     private TextView res;
