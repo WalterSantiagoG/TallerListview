@@ -1,3 +1,46 @@
 <resources>
     <string name="app_name">TallerListview</string>
+    <string name="opciones">OPCIONES</string>
+    <array name="Opciones">
+        <item>@string/areas</item>
+        <item>@string/volumenes</item>
+        <item>@string/operaciones_realizadas</item>
+    </array>
+    <array name="Volumenes">
+        <item>@string/esfera</item>
+        <item>@string/cilindro</item>
+        <item>@string/cono</item>
+        <item>@string/cubo</item>
+    </array>
+    <array name="Areas">
+        <item>@string/cuadrado</item>
+        <item>@string/rectangulo</item>
+        <item>@string/triangulo</item>
+        <item>@string/circulo</item>
+    </array>
+    <string name="volumenes">VOLÚMENES</string>
+    <string name="operaciones_realizadas">OPERACIONES REALIZADAS</string>
+    <string name="areas">ÁREAS</string>
+    <string name="no">No</string>
+    <string name="Operacion">Operación</string>
+    <string name="datos">Datos</string>
+    <string name="resultado">Resultado</string>
+    <string name="esfera">ESFERA</string>
+    <string name="cilindro">CILINDRO</string>
+    <string name="cono">CONO</string>
+    <string name="cubo">CUBO</string>
+    <string name="cuadrado">CUADRADO</string>
+    <string name="rectangulo">RECTANGULO</string>
+    <string name="triangulo">TRIANGULO</string>
+    <string name="circulo">CIRCULO</string>
+    <string name="valor_del_lado">Valor del lado</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="borrar">BORRAR</string>
+    <string name="mensaje_de_error_uno">Por favor complete este campo</string>
+    <string name="operacion_registrada">Operacion registrada con exito</string>
+    <string name="valor_lado_a">Valor lado A</string>
+    <string name="valor_lado_b" >Valor lado B</string>
+    <string name="base">Base</string>
+    <string name="altura">Altura</string>
+    <string name="diametro">Diametro</string>
 </resources>

@@ -2,15 +2,18 @@ package com.example.santiago.tallerlistview;
 
 import android.content.Intent;
 import android.content.res.Resources;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class MainActivity extends AppCompatActivity {
+/**
+ * Created by SANTIAGO on 1/10/2017.
+ */
 
+public class Areas extends AppCompatActivity {
     private ListView lv;
     private Resources resources;
     private String opc[];
@@ -19,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        lv = (ListView)findViewById(R.id.opciones);
+        setContentView(R.layout.activity_areas);
+        lv = (ListView)findViewById(R.id.areas);
         resources = this.getResources();
-        opc =resources.getStringArray(R.array.Opciones);
+        opc =resources.getStringArray(R.array.Areas);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,opc);
         lv.setAdapter(adapter);
 
@@ -31,15 +34,19 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int i, long l) {
                 switch (i){
                     case 0:
-                        in = new Intent(MainActivity.this,Areas.class);
+                        in = new Intent(Areas.this,Cuadrado.class);
                         startActivity(in);
                         break;
                     case 1:
-                        in = new Intent(MainActivity.this,Volumenes.class);
+                        in = new Intent(Areas.this,Rectangulo.class);
                         startActivity(in);
                         break;
                     case 2:
-                        in = new Intent(MainActivity.this,OperacionesRealizas.class);
+                        in = new Intent(Areas.this,Triangulo.class);
+                        startActivity(in);
+                        break;
+                    case 3:
+                        in = new Intent(Areas.this,Circulo.class);
                         startActivity(in);
                         break;
                 }
