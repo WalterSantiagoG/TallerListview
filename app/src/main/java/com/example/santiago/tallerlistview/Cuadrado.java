@@ -51,7 +51,7 @@ public class Cuadrado extends AppCompatActivity {
             resultado = num1 * num1;
 
             String ope,dat,result;
-            ope = "Area del cuadrado";
+            ope = resources.getString(R.string.area_del_cuadrado);
             dat = "Lado: "+num1;
             result = ""+resultado;
 

@@ -43,4 +43,16 @@
     <string name="base">Base</string>
     <string name="altura">Altura</string>
     <string name="diametro">Diametro</string>
+    <string name="valor_de_radio">Valor de radio</string>
+    <string name="valor_de_altura">Valor de altura</string>
+    <string name="valor_de_distanci">Valor de distancia</string>
+    <string name="valor_de_area_de_un_lado">Valor de area de un lado</string>
+    <string name="area_del_cono">Area del cono</string>
+    <string name="area_del_cilindro">Area del cilindro</string>
+    <string name="area_del_circulo">Area del circulo</string>
+    <string name="area_del_cuadrado">Area del cuadrado</string>
+    <string name="area_del_cubo">Area del cubo</string>
+    <string name="area_de_la_esfera">Area de la esfera</string>
+    <string name="area_del_rectangulo">Area del rectangulo</string>
+    <string name="area_del_triangulo">Area del triangulo</string>
 </resources>

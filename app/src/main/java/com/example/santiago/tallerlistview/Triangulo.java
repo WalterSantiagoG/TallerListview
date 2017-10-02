@@ -56,7 +56,7 @@ public class Triangulo extends AppCompatActivity {
             resultado = ((num1 * num2)/2);
 
             String ope,dat,result;
-            ope = "Area del triangulo";
+            ope = resources.getString(R.string.area_del_triangulo);
             dat = "Base: "+num1+ " | ALtura: "+num2;
             result = ""+resultado;
 

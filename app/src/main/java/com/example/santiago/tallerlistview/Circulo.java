@@ -51,7 +51,7 @@ public class Circulo extends AppCompatActivity {
             resultado = ((num1 * num1) * 3.1416);
 
             String ope,dat,result;
-            ope = "Area del circulo";
+            ope = resources.getString(R.string.area_del_circulo);
             dat = "Diametro: "+num1;
             result = ""+resultado;
 

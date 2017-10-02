@@ -23,6 +23,10 @@
         <activity android:name=".Rectangulo"/>
         <activity android:name=".Triangulo"/>
         <activity android:name=".Circulo"/>
+        <activity android:name=".Esfera"/>
+        <activity android:name=".Cilindro"/>
+        <activity android:name=".Cono"/>
+        <activity android:name=".Cubo"/>
     </application>
 
 </manifest>

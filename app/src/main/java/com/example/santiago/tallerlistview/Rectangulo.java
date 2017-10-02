@@ -56,7 +56,7 @@ public class Rectangulo extends AppCompatActivity {
             resultado = num1 * num2;
 
             String ope,dat,result;
-            ope = "Area del rectangulo";
+            ope = resources.getString(R.string.area_del_rectangulo);
             dat = "Lado A: "+num1+ " | Lado B: "+num2;
             result = ""+resultado;
 

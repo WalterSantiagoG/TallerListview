@@ -21,4 +21,22 @@
     <string name="borrar">DELETE</string>
     <string name="calcular">CALCULATE</string>
     <string name="operacion_registrada">Operation registered successfully</string>
+    <string name="altura">Height</string>
+    <string name="base">Base</string>
+    <string name="diametro">Diameter</string>
+    <string name="valor_de_altura">Height value</string>
+    <string name="valor_de_area_de_un_lado">Area value on one side</string>
+    <string name="valor_de_radio">Radio Value</string>
+    <string name="valor_de_distanci">Distance value</string>
+    <string name="valor_del_lado">Value of the side</string>
+    <string name="valor_lado_a">Value side A</string>
+    <string name="valor_lado_b">Value side B</string>
+    <string name="area_del_cono">Cone area</string>
+    <string name="area_del_cilindro">Cylinder area</string>
+    <string name="area_del_circulo">Circle area</string>
+    <string name="area_del_cuadrado">Square area</string>
+    <string name="area_del_cubo">Cube area</string>
+    <string name="area_de_la_esfera">Ball area</string>
+    <string name="area_del_rectangulo">Rectangle area</string>
+    <string name="area_del_triangulo">Triangle area</string>
 </resources>
