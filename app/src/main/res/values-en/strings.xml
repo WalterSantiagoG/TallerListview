@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TallerListview</string>
+    <string name="opciones">OPTIONS</string>
+    <string name="operaciones_realizadas">OPERATIONS PERFORMED</string>
+    <string name="volumenes">VOLUMES</string>
+    <string name="areas">AREAS</string>
+    <string name="Operacion">Operation</string>
+    <string name="datos">Data</string>
+    <string name="no">No</string>
+    <string name="cilindro">CYLINDER</string>
+    <string name="circulo">CIRCLE</string>
+    <string name="cono">CONE</string>
+    <string name="cuadrado">SQUARE</string>
+    <string name="cubo">CUBE</string>
+    <string name="esfera">SPHERE</string>
+    <string name="rectangulo">RECTANGLE</string>
+    <string name="resultado">Result</string>
+    <string name="triangulo">TRIANGLE</string>
+    <string name="mensaje_de_error_uno">Please complete this field</string>
+    <string name="borrar">DELETE</string>
+    <string name="calcular">CALCULATE</string>
+    <string name="operacion_registrada">Operation registered successfully</string>
+</resources>
